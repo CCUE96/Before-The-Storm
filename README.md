@@ -15,3 +15,4 @@ As a commuter I want to know the weather before going outside so i can plan acco
 - Saves citys recently searched for so you can plan your commute
 
 # <ins>Mockup<ins>
+<img width="1271" alt="before the storm" src="https://github.com/CCUE96/Before-The-Storm/assets/159393541/83f87f33-6232-423e-9f09-5af5843cc959">
