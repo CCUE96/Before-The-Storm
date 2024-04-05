@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # <ins>Before The Storm<ins>
 
 ## A Dyanamic Weather Application Made with Javascript
