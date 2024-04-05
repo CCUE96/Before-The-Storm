@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="jumbotron text-center" id="headerText">
+<h1 class="display-5">Before The Storm </h1>
+<h3>Dynamic Weather Application</h3>
+</header>
+<div class="container-lg mt-5 ">
+    <div class="row justify-content-start">
+        <div class="col-sm-3 custom left-card">
+            <div class="card">
+                <div class="card-header" id="card-header">
+                    <h5 class="card-title">Search City</h5>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <section for="citySearch" class="section">City</section>
+                            <input type="text" class="form-control" id="Search" aria-describedby="Search">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title" id="currentCity">City</h5>
+                </div>
+                <div class="card-body" id="Weather-container">
+                    <div id="weatherData"></div>
+                </div>           
+                    </div>
+</div>
+
+<div class="searchedCities" id='searchedCitiesContainer'></div>
+<div class="5DayForecast " id="forecastContainer"></div>
+</body>
+<script src="assets/script.js"></script>
+</html>
